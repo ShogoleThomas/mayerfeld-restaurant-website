@@ -1,4 +1,4 @@
-# Mayerfeld Restaurant Website
+# Italian Restaurant Website
 
 A modern, responsive restaurant website designed to showcase Verde Italian Kitchen, offering visitors an elegant and user-friendly way to explore the restaurant online.
 
