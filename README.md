@@ -4,7 +4,7 @@ A modern, responsive restaurant website designed to showcase Verde Italian Kitch
 
 ## About the Project
 
-The Mayerfeld Restaurant Website is a frontend web development project focused on creating an attractive, accessible, and responsive digital experience for a restaurant.
+The Verde Restaurant Website is a frontend web development project focused on creating an attractive, accessible, and responsive digital experience for a restaurant.
 
 The website aims to combine clean design, intuitive navigation, and a welcoming visual identity that reflects the atmosphere of an Italian dining experience.
 
