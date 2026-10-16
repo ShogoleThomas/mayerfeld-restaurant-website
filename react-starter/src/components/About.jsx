@@ -2,11 +2,13 @@ function About() {
   return (
     <section id="about" className="bg-white py-16 md:py-24">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 md:grid-cols-2">
+        
         <img
-          src="/images/about.png"
-          alt="Warm restaurant dining area"
-          className="w-full rounded-xl object-cover shadow-lg"
+        src={`${import.meta.env.BASE_URL}images/about.png`}
+        alt="VERDE Italian Kitchen"
+        className="block h-auto w-full max-w-full rounded-xl object-cover shadow-lg"
         />
+
 
         <article>
           <h2 className="text-3xl font-bold text-green-900 sm:text-4xl">

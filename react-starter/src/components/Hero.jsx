@@ -29,11 +29,13 @@ function Hero() {
           </div>
         </article>
 
+        
         <img
-          src="/images/hero.png"
-          alt="Freshly baked pizza with toppings"
-          className="w-full rounded-xl object-cover shadow-lg"
+        src={`${import.meta.env.BASE_URL}images/hero.png`}
+        alt="Italian food"
+        className="block h-auto w-full max-w-full rounded-xl object-cover shadow-lg"
         />
+
       </div>
     </section>
   )
