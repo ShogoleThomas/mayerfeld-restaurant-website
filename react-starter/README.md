@@ -1,16 +1,80 @@
-# React + Vite
+# VERDE Italian Kitchen — React Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+VERDE Italian Kitchen is a responsive restaurant website built with React, Vite, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is the second assignment version of the original HTML and CSS restaurant website.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React — component-based user interface
+- Vite — development server and production build
+- Tailwind CSS — responsive styling
+- JavaScript — interactive functionality
+- Git and GitHub — version control
 
-## Expanding the Oxlint configuration
+## Website Sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The website contains six main sections:
+
+1. Header — restaurant branding and navigation
+2. Hero — introductory section
+3. About — information about the restaurant
+4. Menu — restaurant dishes and category filtering
+5. Reservation — interactive reservation form preview
+6. Footer — restaurant information and contact details
+
+## React Components
+
+The project uses reusable React components, including:
+
+- `Header.jsx`
+- `Hero.jsx`
+- `About.jsx`
+- `Menu.jsx`
+- `MenuItem.jsx`
+- `QuantityStepper.jsx`
+- `Reservation.jsx`
+- `Footer.jsx`
+
+## Interactive Features
+
+**Menu Filtering:** Visitors can select a category to filter the displayed menu items.
+
+**Quantity Stepper:** Visitors can increase or decrease the quantity for individual menu items.
+
+**Reservation Form:** Visitors can enter reservation details and view a preview. This is a demonstration form and does not submit a real booking.
+
+## Responsive Design
+
+The website uses Tailwind CSS responsive utilities to adapt to mobile, tablet, and desktop screens.
+
+The layout was tested at a width of 320px, with no horizontal page overflow.
+
+## Running the Project Locally
+
+Open a terminal in the `react-starter` folder and run:
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL shown in the terminal.
+
+## Creating a Production Build
+
+```bash
+npm run build
+```
+
+Vite generates the production files in the `dist` folder.
+
+## Author
+
+Shogole Thomas
+
+## Repository
+
+https://github.com/ShogoleThomas/mayerfeld-restaurant-website
