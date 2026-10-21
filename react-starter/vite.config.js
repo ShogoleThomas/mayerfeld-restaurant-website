@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/mayerfeld-restaurant-website/',
+  base: '/',
 })
