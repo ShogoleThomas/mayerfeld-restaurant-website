@@ -1,6 +1,7 @@
 export const menuItems = [
   {
     id: 1,
+    image: 'https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=900&q=85',
     name: 'Bruschetta',
     category: 'Starters',
     price: 65,
@@ -8,6 +9,7 @@ export const menuItems = [
   },
   {
     id: 2,
+    image: 'https://images.unsplash.com/photo-1619531040576-f9416740661b?auto=format&fit=crop&w=900&q=85',
     name: 'Garlic Bread',
     category: 'Starters',
     price: 45,
@@ -15,6 +17,7 @@ export const menuItems = [
   },
   {
     id: 3,
+    image: 'https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&w=900&q=85',
     name: 'Caprese Salad',
     category: 'Starters',
     price: 85,
@@ -22,6 +25,8 @@ export const menuItems = [
   },
   {
     id: 4,
+    image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=900&q=85',
+    featured: true,
     name: 'Margherita Pizza',
     category: 'Mains',
     price: 125,
@@ -29,6 +34,8 @@ export const menuItems = [
   },
   {
     id: 5,
+    image: 'https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=900&q=85',
+    featured: true,
     name: 'Alfredo Pasta',
     category: 'Mains',
     price: 145,
@@ -36,6 +43,7 @@ export const menuItems = [
   },
   {
     id: 6,
+    image: 'https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=900&q=85',
     name: 'Mushroom Risotto',
     category: 'Mains',
     price: 155,
@@ -43,6 +51,8 @@ export const menuItems = [
   },
   {
     id: 7,
+    image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=900&q=85',
+    featured: true,
     name: 'Tiramisu',
     category: 'Desserts',
     price: 75,
@@ -50,6 +60,7 @@ export const menuItems = [
   },
   {
     id: 8,
+    image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=85',
     name: 'Panna Cotta',
     category: 'Desserts',
     price: 70,
@@ -57,6 +68,7 @@ export const menuItems = [
   },
   {
     id: 9,
+    image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=900&q=85',
     name: 'Gelato',
     category: 'Desserts',
     price: 55,

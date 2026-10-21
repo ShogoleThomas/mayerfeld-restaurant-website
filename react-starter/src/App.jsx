@@ -5,22 +5,27 @@ import About from './components/About'
 import Menu from './components/Menu'
 import Reservation from './components/Reservation'
 import Footer from './components/Footer'
+import Cart from './components/Cart'
 
-function App() {
+import { CartProvider } from './context/CartContext'
+import { AuthProvider } from './context/AuthContext'
+
+export default function App() {
   return (
-    <>
-      <Header />
+    <AuthProvider>
+      <CartProvider>
+        <Header />
 
-      <main>
-        <Hero />
-        <About />
-        <Menu />
-        <Reservation />
-      </main>
+        <main>
+          <Hero />
+          <Menu />
+          <About />
+          <Reservation />
+        </main>
 
-      <Footer />
-    </>
+        <Footer />
+        <Cart />
+      </CartProvider>
+    </AuthProvider>
   )
 }
-
-export default App

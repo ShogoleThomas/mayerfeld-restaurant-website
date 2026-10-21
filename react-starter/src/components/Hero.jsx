@@ -1,44 +1,6 @@
-function Hero() {
-  return (
-    <section id="home" className="bg-stone-50 py-16 md:py-24">
-      <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 md:grid-cols-2">
-        <article className="text-center md:text-left">
-          <h1 className="text-4xl font-bold leading-tight text-green-900 sm:text-5xl lg:text-6xl">
-            Fresh Italian Food, Made with Care.
-          </h1>
-
-          <p className="mt-6 text-lg leading-relaxed text-stone-600">
-            Welcome to VERDE Italian Kitchen. Enjoy fresh pasta,
-            classic pizza and good food shared with good company.
-          </p>
-
-          <div className="mt-8 flex flex-wrap justify-center gap-4 md:justify-start">
-            <a
-              href="#reservation"
-              className="rounded-md bg-green-900 px-6 py-3 font-medium text-white transition hover:bg-green-800"
-            >
-              Reserve a Table
-            </a>
-
-            <a
-              href="#menu"
-              className="rounded-md border border-green-900 px-6 py-3 font-medium text-green-900 transition hover:bg-green-900 hover:text-white"
-            >
-              View Menu
-            </a>
-          </div>
-        </article>
-
-        
-        <img
-        src={`${import.meta.env.BASE_URL}images/hero.png`}
-        alt="Italian food"
-        className="block h-auto w-full max-w-full rounded-xl object-cover shadow-lg"
-        />
-
-      </div>
-    </section>
-  )
+export default function Hero() {
+  return <section id="home" className="overflow-hidden bg-[#f5f0e6]"><div className="mx-auto grid min-h-[610px] max-w-7xl items-center gap-10 px-5 py-14 md:grid-cols-2 md:py-20">
+    <article><p className="mb-5 inline-flex items-center gap-2 rounded-full border border-green-800/20 bg-white px-4 py-2 text-xs font-bold uppercase tracking-[.2em] text-green-900">✦ Freshly made, always Italian</p><h1 className="max-w-xl font-serif text-5xl font-bold leading-[1.07] tracking-tight text-green-950 sm:text-6xl lg:text-7xl">A little taste of <em className="text-orange-700">Italy.</em> A lot of love.</h1><p className="mt-7 max-w-lg text-lg leading-relaxed text-stone-600">From hand-finished pasta to oven-baked favourites, discover comforting Italian food made for sharing.</p><div className="mt-9 flex flex-wrap gap-3"><a href="#menu" className="rounded-full bg-green-950 px-7 py-4 font-bold text-white shadow-lg hover:bg-green-800">Explore the menu →</a><a href="#reservation" className="rounded-full border-2 border-green-950 px-7 py-4 font-bold text-green-950 hover:bg-green-950 hover:text-white">Reserve a table</a></div><div className="mt-10 flex gap-7 border-t border-stone-300 pt-6 text-sm text-stone-600"><span><strong className="block text-2xl text-green-950">9</strong>Italian favourites</span><span><strong className="block text-2xl text-green-950">3</strong>Menu categories</span><span><strong className="block text-2xl text-green-950">100%</strong>Made with care</span></div></article>
+    <div className="relative"><div className="absolute -right-8 -top-8 h-48 w-48 rounded-full bg-orange-200/60 blur-2xl"/><img src={`${import.meta.env.BASE_URL}images/hero.png`} alt="Fresh Italian food served at VERDE" className="relative aspect-[4/4.4] w-full rounded-[2rem] object-cover shadow-2xl"/><div className="absolute -bottom-5 -left-3 rounded-2xl bg-white px-6 py-4 shadow-xl sm:-left-7"><p className="text-xs font-bold uppercase tracking-widest text-orange-700">From our kitchen</p><p className="font-serif text-xl font-bold text-green-950">Buon appetito! ♡</p></div></div>
+  </div></section>
 }
-
-export default Hero
