@@ -1,6 +1,9 @@
 
 require('dotenv').config()
 
+console.log('SESSION_SECRET configured:', Boolean(process.env.SESSION_SECRET))
+console.log('DATABASE_URL configured:', Boolean(process.env.DATABASE_URL))
+
 const express = require('express')
 const cors = require('cors')
 const bcrypt = require('bcryptjs')
